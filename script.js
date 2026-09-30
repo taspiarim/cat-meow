@@ -12,6 +12,7 @@ function meow() {
 cat.addEventListener("mouseenter", meow);
 
 cat.addEventListener("click", meow);
+cat.addEventListener("touchstart", meow);
 
 cat.addEventListener("mouseleave", function() {
     message.textContent = "Waiting for pets... 🐾";
